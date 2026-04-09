@@ -1,21 +1,70 @@
-MIT License
+Functional Source License, Version 1.1, Apache 2.0 Future License
 
-Copyright (c) 2026 BeforeMerge (Chykalophia LLC)
+Abbreviation
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+FSL-1.1-Apache-2.0
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Notice
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright 2026 Chykalophia LLC (BeforeMerge)
+
+Terms and Conditions
+
+Licensor:             Chykalophia LLC
+
+Licensed Work:        BeforeMerge Skills
+                      The Licensed Work is (c) 2026 Chykalophia LLC
+
+Additional Use Grant: You may make use of the Licensed Work, provided that
+                      you do not use the Licensed Work for a Code Review
+                      Service.
+
+                      A "Code Review Service" is a commercial offering that
+                      provides automated code review, code scanning, or
+                      standards enforcement as its primary function, and
+                      that is made available to third parties as a managed
+                      service (i.e., a service where the provider operates
+                      the software on behalf of the customer).
+
+                      For clarity, the following are NOT considered a
+                      Code Review Service:
+                      - Using the Licensed Work for internal code review
+                        within your own organization
+                      - Incorporating individual rules or patterns into
+                        your own development workflow
+                      - Building tools that reference or link to the
+                        Licensed Work without redistributing it
+                      - Academic or research use
+
+Change Date:          The earlier of 2028-04-09 or a date specified at
+                      https://github.com/BeforeMerge/beforemerge-skills
+
+Change License:       Apache License, Version 2.0
+
+For information about alternative licensing arrangements for the Licensed Work,
+please contact: peter@chykalophia.com
+
+-----
+
+Licensed Work Usage
+
+This source code is made available under the Functional Source License,
+Version 1.1 (FSL-1.1). The FSL is not an open-source license — it is a
+source-available license that converts to Apache 2.0 after the Change Date.
+
+You CAN:
+- Read, study, and learn from this code
+- Use rules and patterns in your own projects
+- Fork and modify for non-competing use
+- Use internally within your organization
+- Contribute improvements back via pull request
+
+You CANNOT:
+- Build a competing code review service using this code
+- Offer this code as part of a managed code review product
+- Redistribute as a competing commercial offering
+
+After the Change Date (2028-04-09), the Licensed Work will be available
+under the Apache License, Version 2.0.
+
+For the full FSL-1.1 license text, see: https://fsl.software/

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "organization": "BeforeMerge",
+  "date": "April 2026",
+  "abstract": "Opinionated best practices for full-stack Next.js 14+ App Router applications with Supabase. Covers project structure, data fetching, auth, RLS, server actions, components, TypeScript, performance, error handling, security, and testing. Each rule includes why it matters, good and bad code examples, impact ratings, and detection hints for automated enforcement.",
+  "references": [
+    "https://nextjs.org/docs",
+    "https://supabase.com/docs",
+    "https://supabase.com/docs/guides/auth/server-side/nextjs",
+    "https://react.dev",
+    "https://beforemerge.dev"
+  ]
+}
