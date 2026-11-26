@@ -7,6 +7,7 @@ tags: [security, react, eval, code-injection]
 cwe: ["CWE-95"]
 owasp: ["A03:2021"]
 detection_grep: "eval("
+sources: ["CWE-95", "OWASP-A03:2021", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#never_use_eval!"]
 ---
 
 ## Never Use eval() or new Function() with User Input

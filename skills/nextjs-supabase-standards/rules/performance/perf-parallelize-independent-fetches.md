@@ -4,6 +4,7 @@ description: "Use Promise.all for independent Supabase queries instead of sequen
 impact: HIGH
 impact_description: "Sequential awaits create a waterfall -- each query waits for the previous one to complete. Three 200ms queries take 600ms sequentially but only 200ms in parallel."
 tags: [performance, nextjs, data-fetching, supabase]
+sources: ["https://nextjs.org/docs/app/getting-started/fetching-data"]
 ---
 
 ## Parallelize independent data fetches with Promise.all

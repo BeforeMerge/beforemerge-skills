@@ -7,6 +7,7 @@ tags: [security, csrf, mutations, middleware, api, nextjs]
 cwe: ["CWE-352"]
 owasp: ["A01:2021"]
 detection_grep: "export async function POST"
+sources: ["CWE-352", "OWASP-A01:2021", "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html", "https://cwe.mitre.org/data/definitions/352.html"]
 ---
 
 ## Validate CSRF Tokens on All State-Changing Requests

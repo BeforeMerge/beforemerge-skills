@@ -6,6 +6,7 @@ impact_description: 10-100x query reduction, eliminates serial HTTP round trips
 tags: [performance, supabase, n-plus-one, queries, postgresql]
 cwe: ["CWE-400"]
 detection_grep: "forEach.*from("
+sources: ["CWE-400", "https://docs.postgrest.org/en/stable/references/api/resource_embedding.html", "https://supabase.com/docs/guides/database/joins-and-nesting"]
 ---
 
 ## Avoid N+1 Queries with Supabase Relational Selects

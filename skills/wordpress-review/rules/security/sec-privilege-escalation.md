@@ -7,6 +7,7 @@ tags: [security, authorization, capabilities, rest-api, wordpress]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "register_rest_route|admin_post_|current_user_can"
+sources: ["CWE-862", "OWASP-A01:2021", "https://developer.wordpress.org/plugins/users/roles-and-capabilities/", "https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-custom-endpoints/#permissions-callback", "https://cwe.mitre.org/data/definitions/862.html"]
 ---
 
 ## Always Check Capabilities Before Privileged Operations

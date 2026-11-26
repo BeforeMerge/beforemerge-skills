@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "Using the wrong client type either exposes data (admin client in page) or blocks legitimate access (authenticated client for public content). Each has different security characteristics."
 tags: [security, supabase, auth, rls]
 detection_grep: "createAdminClient"
+sources: ["https://supabase.com/docs/guides/api/api-keys", "https://supabase.com/docs/guides/database/postgres/row-level-security", "https://supabase.com/docs/guides/auth/server-side/nextjs"]
 ---
 
 ## Use three distinct Supabase client types

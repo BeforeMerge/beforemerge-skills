@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: eliminates redundant database queries and ORDER BY RAND() full table scans in templates
 tags: [performance, database, templates, queries, pre-get-posts, wordpress]
 detection_grep: "query_posts|\\$wpdb.*template|ORDER BY RAND"
+sources: ["https://developer.wordpress.org/reference/hooks/pre_get_posts/", "https://developer.wordpress.org/reference/functions/query_posts/"]
 ---
 
 ## Keep Database Queries Out of Templates — Use pre_get_posts

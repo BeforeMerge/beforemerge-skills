@@ -7,6 +7,7 @@ tags: [security, rate-limiting, brute-force, middleware, api, nextjs]
 cwe: ["CWE-770"]
 owasp: ["A04:2021"]
 detection_grep: "export async function POST"
+sources: ["CWE-770", "OWASP-A04:2021", "https://upstash.com/docs/oss/sdks/ts/ratelimit/overview", "https://cwe.mitre.org/data/definitions/770.html", "https://owasp.org/Top10/A04_2021-Insecure_Design/"]
 ---
 
 ## Rate Limit Every API Route with Appropriate Buckets

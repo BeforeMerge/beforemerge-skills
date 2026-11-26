@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: eliminates client-side waterfalls, loading spinners, and unnecessary API roundtrips
 tags: [performance, useeffect, data-fetching, server-components, react, nextjs]
 detection_grep: "useEffect"
+sources: ["https://nextjs.org/docs/app/building-your-application/data-fetching", "https://react.dev/reference/rsc/server-components"]
 ---
 
 ## Prefer Server Components Over useEffect + Fetch for Data Loading

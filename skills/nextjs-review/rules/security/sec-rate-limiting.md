@@ -7,6 +7,7 @@ tags: [security, rate-limiting, brute-force, authentication, api, nextjs]
 cwe: ["CWE-799", "CWE-307"]
 owasp: ["A04:2021"]
 detection_grep: "rateLimit|rateLimiter|limiter"
+sources: ["CWE-799", "CWE-307", "OWASP-A04:2021", "https://upstash.com/docs/oss/sdks/ts/ratelimit/overview", "https://cwe.mitre.org/data/definitions/307.html"]
 ---
 
 ## Implement Rate Limiting on Sensitive Endpoints

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: ensures complete and reviewable migration files
 tags: [architecture, supabase, migrations, postgresql, database, structure]
 detection_grep: "CREATE TABLE"
+sources: ["https://supabase.com/docs/guides/cli/managing-environments", "https://www.postgresql.org/docs/current/sql-createtable.html"]
 ---
 
 ## Follow Canonical Migration File Structure

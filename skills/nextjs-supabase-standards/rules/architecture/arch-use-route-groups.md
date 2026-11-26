@@ -4,6 +4,7 @@ description: "Organize routes using parenthesized layout groups like (auth), (da
 impact: HIGH
 impact_description: "Without route groups, the app directory becomes a flat list of routes that share the same layout. This makes it impossible to have different layouts per section and harder to navigate as the app grows."
 tags: [architecture, nextjs, app-router, project-structure]
+sources: ["https://nextjs.org/docs/app/api-reference/file-conventions/route-groups"]
 ---
 
 ## Use route groups to organize app sections

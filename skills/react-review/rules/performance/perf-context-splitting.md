@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents cascade re-renders across the entire component tree
 tags: [performance, react, context, state-management, rerenders]
 detection_grep: "createContext"
+sources: ["https://react.dev/reference/react/useContext"]
 ---
 
 ## Split Large Contexts to Prevent Unnecessary Consumer Re-renders

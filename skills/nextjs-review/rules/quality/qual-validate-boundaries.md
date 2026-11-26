@@ -6,6 +6,7 @@ impact_description: prevents runtime crashes from unexpected API responses or us
 tags: [quality, validation, type-safety, zod, typescript, nextjs]
 cwe: ["CWE-20"]
 detection_grep: "await.*\\.json()"
+sources: ["CWE-20", "https://zod.dev/", "https://cwe.mitre.org/data/definitions/20.html"]
 ---
 
 ## Validate External Data at System Boundaries

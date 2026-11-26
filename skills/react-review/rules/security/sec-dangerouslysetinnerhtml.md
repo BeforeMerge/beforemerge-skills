@@ -7,6 +7,7 @@ tags: [security, react, xss, sanitization]
 cwe: ["CWE-79"]
 owasp: ["A03:2021"]
 detection_grep: "dangerouslySetInnerHTML"
+sources: ["CWE-79", "OWASP-A03:2021", "https://react.dev/reference/react-dom/components/common#dangerously-setting-the-inner-html"]
 ---
 
 ## Sanitize Content Before dangerouslySetInnerHTML

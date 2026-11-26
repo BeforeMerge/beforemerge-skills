@@ -4,6 +4,7 @@ description: "Supabase client calls are NOT automatically deduplicated like fetc
 impact: MEDIUM
 impact_description: "Unlike the native fetch() API which Next.js deduplicates, Supabase client queries run independently. Duplicate queries waste database resources and add latency."
 tags: [performance, nextjs, supabase, data-fetching]
+sources: ["https://nextjs.org/docs/app/getting-started/fetching-data", "https://react.dev/reference/react/cache"]
 ---
 
 ## Never fetch the same data in both layout and page

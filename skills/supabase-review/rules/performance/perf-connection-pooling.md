@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents connection exhaustion and database downtime under load
 tags: [performance, supabase, connection-pooling, serverless, supavisor]
 detection_grep: "NEXT_PUBLIC_SUPABASE_URL"
+sources: ["https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler", "https://supabase.com/docs/guides/platform/custom-postgres-config", "https://supabase.com/partners/integrations/prisma"]
 ---
 
 ## Use Connection Pooling (Supavisor) for Serverless Deployments

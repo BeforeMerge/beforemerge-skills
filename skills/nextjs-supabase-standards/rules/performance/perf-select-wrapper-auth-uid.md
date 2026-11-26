@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Without the select wrapper, auth.uid() may be re-evaluated for every row in the table, degrading performance on large tables."
 tags: [performance, supabase, rls, postgresql]
 detection_grep: "auth.uid()"
+sources: ["https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Use (select auth.uid()) instead of auth.uid() in policies

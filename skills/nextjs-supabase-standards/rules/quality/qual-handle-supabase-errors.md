@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Ignoring the error field means your page silently renders with null data, showing blank content or crashing on null access."
 tags: [quality, supabase, error-handling]
 detection_grep: ".from("
+sources: ["CWE-252", "https://supabase.com/docs/reference/javascript/select"]
 ---
 
 ## Handle Supabase query errors explicitly

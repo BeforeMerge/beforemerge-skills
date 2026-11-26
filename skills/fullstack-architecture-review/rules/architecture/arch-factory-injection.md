@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: Direct instantiation couples callers to concrete implementations, making it impossible to swap dependencies for testing or configuration
 tags: [architecture, factory, dependency-injection, testing, solid]
 detection_grep: "Factory"
+sources: ["https://www.manning.com/books/dependency-injection-principles-practices-patterns"]
 ---
 
 ## Missing Factory for Dependency Injection

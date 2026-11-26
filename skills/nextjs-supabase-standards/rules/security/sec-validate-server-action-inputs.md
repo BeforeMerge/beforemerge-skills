@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Without validation, malformed or malicious input can cause SQL errors, data corruption, or injection attacks."
 tags: [security, nextjs, server-actions, validation]
 detection_grep: "z.object"
+sources: ["CWE-20", "https://nextjs.org/docs/app/guides/data-security", "https://zod.dev/"]
 ---
 
 ## Validate all server action inputs at the boundary

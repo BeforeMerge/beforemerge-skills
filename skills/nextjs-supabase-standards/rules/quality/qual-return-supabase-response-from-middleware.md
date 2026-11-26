@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "The supabaseResponse object contains updated session cookies. If you create a new response without copying them, the browser and server go out of sync."
 tags: [quality, nextjs, supabase, auth, middleware]
 detection_grep: "NextResponse.next"
+sources: ["https://supabase.com/docs/guides/auth/server-side/nextjs"]
 ---
 
 ## Return the supabaseResponse object unchanged from middleware

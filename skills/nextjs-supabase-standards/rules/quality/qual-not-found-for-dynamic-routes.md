@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Without notFound(), invalid slugs either crash with a null access error or silently render an empty page."
 tags: [quality, nextjs, error-handling, app-router]
 detection_grep: "notFound"
+sources: ["https://nextjs.org/docs/app/api-reference/functions/not-found"]
 ---
 
 ## Use notFound() for invalid dynamic route params

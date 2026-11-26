@@ -6,6 +6,7 @@ impact_description: Business logic scattered across handlers and actions is unte
 tags: [architecture, service-layer, single-responsibility, solid]
 cwe: ["CWE-1086"]
 detection_grep: "ServiceResult"
+sources: ["CWE-1086", "https://martinfowler.com/eaaCatalog/serviceLayer.html"]
 ---
 
 ## Missing Service Layer

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents incorrect component state, UI corruption, and inefficient re-renders in lists
 tags: [performance, react, keys, lists, rendering, nextjs]
 detection_grep: "key=\\{index\\}|key=\\{i\\}|\\.map\\("
+sources: ["https://react.dev/learn/rendering-lists#why-does-react-need-keys"]
 ---
 
 ## Use Stable, Unique Keys for List Items (Never Index)

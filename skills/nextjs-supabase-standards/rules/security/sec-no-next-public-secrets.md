@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "NEXT_PUBLIC_ variables are embedded in the client JavaScript bundle and visible to anyone with browser DevTools."
 tags: [security, nextjs, secrets, env]
 detection_grep: "NEXT_PUBLIC_SUPABASE_SERVICE"
+sources: ["CWE-200", "https://nextjs.org/docs/app/guides/environment-variables", "https://supabase.com/docs/guides/api/api-keys"]
 ---
 
 ## Store sensitive env vars without NEXT_PUBLIC_ prefix

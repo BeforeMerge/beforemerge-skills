@@ -7,6 +7,7 @@ tags: [quality, secrets, environment-variables, configuration, nextjs]
 cwe: ["CWE-798"]
 owasp: ["A07:2021"]
 detection_grep: "sk_live|sk_test|password.*=.*['\"]"
+sources: ["CWE-798", "OWASP-A07:2021", "https://nextjs.org/docs/app/building-your-application/configuring/environment-variables", "https://cwe.mitre.org/data/definitions/798.html"]
 ---
 
 ## Never Hardcode Secrets — Use Environment Variables Properly

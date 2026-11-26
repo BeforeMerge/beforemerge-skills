@@ -7,6 +7,7 @@ tags: [security, route-handlers, authentication, authorization, api, nextjs]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "export async function GET|export async function POST|export async function PUT|export async function DELETE"
+sources: ["CWE-862", "OWASP-A01:2021", "https://nextjs.org/docs/app/building-your-application/routing/route-handlers", "https://cwe.mitre.org/data/definitions/862.html"]
 ---
 
 ## Authenticate Route Handlers Like Server Actions

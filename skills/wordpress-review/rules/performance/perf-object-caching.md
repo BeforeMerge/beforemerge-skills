@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: eliminates repeated database queries for frequently accessed data across multiple requests
 tags: [performance, caching, object-cache, redis, memcached, wordpress]
 detection_grep: "wp_cache_get|wp_cache_set|new WP_Query"
+sources: ["https://developer.wordpress.org/reference/classes/wp_object_cache/", "https://developer.wordpress.org/advanced-administration/performance/cache/"]
 ---
 
 ## Use Object Cache for Repeated Expensive Queries

@@ -7,6 +7,7 @@ tags: [security, csrf, nonce, forms, wordpress]
 cwe: ["CWE-352"]
 owasp: ["A01:2021"]
 detection_grep: "admin_post_|admin_init.*$_POST|wp_ajax_"
+sources: ["CWE-352", "OWASP-A01:2021", "https://developer.wordpress.org/apis/security/nonces/", "https://cwe.mitre.org/data/definitions/352.html"]
 ---
 
 ## Verify Nonces on All State-Changing Actions

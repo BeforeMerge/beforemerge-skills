@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces client-side JavaScript bundle size and improves initial page load
 tags: [performance, client-components, server-components, bundle-size, react, nextjs]
 detection_grep: "use client"
+sources: ["https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns", "https://react.dev/reference/rsc/server-components"]
 ---
 
 ## Keep 'use client' on the Smallest Possible Leaf Components

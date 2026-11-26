@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Using service_role for public page reads bypasses RLS unnecessarily, removing a security layer and potentially exposing private data if a query filter is wrong."
 tags: [security, supabase, rls, auth]
 detection_grep: "createAdminClient"
+sources: ["CWE-269", "https://supabase.com/docs/guides/api/api-keys", "https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Use the anon key for public-facing pages

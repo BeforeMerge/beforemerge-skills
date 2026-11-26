@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces page load time by 200-2000ms for pages making external API calls or complex queries
 tags: [performance, caching, transients, api, wordpress]
 detection_grep: "wp_remote_get|wp_remote_post|$wpdb->get_results"
+sources: ["https://developer.wordpress.org/apis/transients/", "https://developer.wordpress.org/advanced-administration/performance/"]
 ---
 
 ## Cache Expensive Operations with Transients

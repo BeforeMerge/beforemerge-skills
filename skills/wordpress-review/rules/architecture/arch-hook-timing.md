@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents wasted queries on frontend, failed registrations from wrong timing, and race conditions
 tags: [architecture, hooks, actions, filters, timing, wordpress]
 detection_grep: "add_action.*init.*enqueue|add_action.*plugins_loaded.*register_post_type"
+sources: ["https://developer.wordpress.org/apis/hooks/action-reference/", "https://developer.wordpress.org/plugins/hooks/"]
 ---
 
 ## Use the Correct WordPress Hook for Each Operation

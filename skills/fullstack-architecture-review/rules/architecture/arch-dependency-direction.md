@@ -6,6 +6,7 @@ impact_description: Inverted dependencies create circular coupling, break testab
 tags: [architecture, solid, clean-architecture, dependency-inversion]
 cwe: ["CWE-1047"]
 detection_grep: "import.*from.*app/api"
+sources: ["CWE-1047", "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"]
 ---
 
 ## Dependency Direction Violation

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces initial JavaScript bundle by deferring heavy libraries until needed
 tags: [performance, code-splitting, dynamic-imports, bundle-size, lazy-loading, nextjs]
 detection_grep: "import.*chart|import.*editor|import.*map|import.*pdf|import.*markdown"
+sources: ["https://nextjs.org/docs/app/building-your-application/optimizing/lazy-loading", "https://react.dev/reference/react/lazy"]
 ---
 
 ## Use Dynamic Imports for Heavy Client Components

@@ -9,5 +9,11 @@
     "https://supabase.com/docs/guides/database/postgres/row-level-security",
     "https://owasp.org/www-project-top-ten/",
     "https://beforemerge.dev"
+  ],
+  "sources": [
+    "https://supabase.com/docs",
+    "https://supabase.com/docs/guides/auth",
+    "https://supabase.com/docs/guides/database/postgres/row-level-security",
+    "https://owasp.org/www-project-top-ten/"
   ]
 }

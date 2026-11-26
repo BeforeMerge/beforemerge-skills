@@ -6,6 +6,7 @@ impact_description: Direct database calls in services tightly couple business lo
 tags: [architecture, repository, abstraction, solid, data-access]
 cwe: ["CWE-1057"]
 detection_grep: "Repository"
+sources: ["CWE-1057", "https://martinfowler.com/eaaCatalog/repository.html"]
 ---
 
 ## Missing Repository Abstraction

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Without strict mode, TypeScript allows implicit any types, unchecked null access, and other patterns that cause runtime crashes."
 tags: [quality, typescript, nextjs]
 detection_grep: "\"strict\""
+sources: ["https://www.typescriptlang.org/tsconfig/#strict"]
 ---
 
 ## Enable strict mode in tsconfig.json

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Missing indexes on frequently-queried foreign keys cause slow queries that degrade exponentially as table size grows."
 tags: [performance, supabase, postgresql]
 detection_grep: "REFERENCES"
+sources: ["https://www.postgresql.org/docs/current/ddl-constraints.html"]
 ---
 
 ## Add indexes on foreign keys and common query filters

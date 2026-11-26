@@ -6,6 +6,7 @@ impact_description: prevents prototype pollution leading to privilege escalation
 tags: [security, react, prototype-pollution, object-spread]
 cwe: ["CWE-1321"]
 detection_grep: "Object.assign"
+sources: ["CWE-1321", "https://cwe.mitre.org/data/definitions/1321.html"]
 ---
 
 ## Prevent Prototype Pollution from Untrusted Input

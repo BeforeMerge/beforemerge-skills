@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents logic drift, reduces maintenance burden, and enforces consistency
 tags: [quality, dry, duplication, refactoring, maintainability]
 detection_grep: "supabase.*from.*select"
+sources: ["https://en.wikipedia.org/wiki/Don%27t_repeat_yourself", "https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming"]
 ---
 
 ## Extract Duplicated Logic After the Third Occurrence

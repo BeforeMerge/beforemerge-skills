@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: reduces code duplication and ensures consistent behavior across components
 tags: [architecture, react, custom-hooks, reusability, DRY]
 detection_grep: "useEffect"
+sources: ["https://react.dev/learn/reusing-logic-with-custom-hooks"]
 ---
 
 ## Extract Duplicated Stateful Logic into Custom Hooks

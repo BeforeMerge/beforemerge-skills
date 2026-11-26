@@ -7,6 +7,7 @@ tags: [security, caching, isr, ssr, cdn, nextjs, cve]
 cwe: ["CWE-444"]
 owasp: ["A05:2021"]
 detection_grep: "revalidate|s-maxage|Cache-Control"
+sources: ["CWE-444", "OWASP-A05:2021", "https://github.com/vercel/next.js/security/advisories/GHSA-67rr-84xm-4c7r", "https://github.com/advisories/GHSA-gp8f-8m3g-qvj9", "https://cwe.mitre.org/data/definitions/444.html"]
 ---
 
 ## Prevent Cache Poisoning in ISR and SSR Routes

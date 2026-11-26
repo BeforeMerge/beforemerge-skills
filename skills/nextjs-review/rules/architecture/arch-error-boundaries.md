@@ -4,6 +4,7 @@ description: "Without error boundaries, a single component failure crashes the e
 impact: MEDIUM
 impact_description: prevents full-page crashes from isolated component failures
 tags: [architecture, error-handling, resilience, error-boundary, nextjs]
+sources: ["https://nextjs.org/docs/app/building-your-application/routing/error-handling", "https://github.com/bvaughn/react-error-boundary"]
 ---
 
 ## Add Error Boundaries Around Unreliable Content

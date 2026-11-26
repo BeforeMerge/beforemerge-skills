@@ -6,6 +6,7 @@ impact_description: prevents untestable, unauditable business logic in the API l
 tags: [security, architecture, thin-controllers, single-responsibility, nextjs, api]
 cwe: ["CWE-1064"]
 detection_grep: "export async function POST"
+sources: ["CWE-1064", "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html", "https://cwe.mitre.org/data/definitions/1064.html"]
 ---
 
 ## Keep API Route Handlers Thin — Delegate to Services

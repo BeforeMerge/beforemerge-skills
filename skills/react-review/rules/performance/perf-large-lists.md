@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents UI freezes and excessive memory consumption from large lists
 tags: [performance, react, virtualization, lists, react-window, tanstack-virtual]
 detection_grep: ".map("
+sources: ["https://tanstack.com/virtual/latest"]
 ---
 
 ## Virtualize Large Lists Instead of Rendering All Items

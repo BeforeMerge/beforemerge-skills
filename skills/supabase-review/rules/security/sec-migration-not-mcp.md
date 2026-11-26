@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents schema drift between local, staging, and production
 tags: [security, supabase, migrations, schema, database, devops]
 detection_grep: "CREATE TABLE"
+sources: ["https://supabase.com/docs/guides/cli/managing-environments", "https://supabase.com/docs/guides/local-development"]
 ---
 
 ## Use Migration Files Instead of MCP or Dashboard SQL

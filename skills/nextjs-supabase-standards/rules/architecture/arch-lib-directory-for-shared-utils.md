@@ -4,6 +4,7 @@ description: "Centralize shared logic (auth, database clients, formatters) in a 
 impact: LOW
 impact_description: "Scattered utility functions lead to duplication and inconsistent implementations across the codebase."
 tags: [architecture, nextjs, project-structure]
+sources: ["https://nextjs.org/docs/app/getting-started/project-structure", "operator_experience"]
 ---
 
 ## Use a lib/ directory for shared utilities

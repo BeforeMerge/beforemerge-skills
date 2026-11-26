@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents memory leaks and state-update-on-unmounted-component bugs
 tags: [quality, react, useEffect, cleanup, memory-leak]
 detection_grep: "useEffect"
+sources: ["https://react.dev/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development"]
 ---
 
 ## Always Clean Up useEffect Side Effects

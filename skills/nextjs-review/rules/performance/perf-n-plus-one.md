@@ -6,6 +6,7 @@ impact_description: 10-100x query reduction, prevents database overload
 tags: [performance, database, n-plus-one, prisma, drizzle, nextjs]
 cwe: ["CWE-400"]
 detection_grep: "\\.map(async"
+sources: ["CWE-400", "https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries"]
 ---
 
 ## Eliminate N+1 Database Queries

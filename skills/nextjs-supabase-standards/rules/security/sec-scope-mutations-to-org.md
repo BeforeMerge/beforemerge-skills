@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "Without explicit org scoping, a bug in RLS policies could expose cross-org writes. Defense-in-depth requires both application and database checks."
 tags: [security, supabase, server-actions, multi-tenant]
 detection_grep: "organization_id"
+sources: ["CWE-639", "OWASP-A01:2021", "https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Scope all mutations to the authenticated organization

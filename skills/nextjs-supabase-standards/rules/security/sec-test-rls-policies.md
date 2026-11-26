@@ -4,6 +4,7 @@ description: "Write tests that verify: User A cannot read User B's data. Anon us
 impact: HIGH
 impact_description: "RLS policy bugs are silent -- they don't throw errors. Instead, they return data that shouldn't be visible. Only tests catch these."
 tags: [security, supabase, rls, testing]
+sources: ["https://supabase.com/docs/guides/database/postgres/row-level-security", "https://supabase.com/docs/guides/database/testing", "https://supabase.com/docs/guides/database/extensions/pgtap"]
 ---
 
 ## Test RLS policies explicitly

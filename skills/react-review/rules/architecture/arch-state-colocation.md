@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: reduces unnecessary re-renders and simplifies component responsibilities
 tags: [architecture, react, state-management, colocation, performance]
 detection_grep: "useState"
+sources: ["https://react.dev/learn/choosing-the-state-structure"]
 ---
 
 ## Colocate State with the Components That Use It

@@ -9,5 +9,11 @@
     "https://owasp.org/www-project-top-ten/",
     "https://cwe.mitre.org/",
     "https://beforemerge.dev"
+  ],
+  "sources": [
+    "https://nextjs.org/docs",
+    "https://react.dev",
+    "https://owasp.org/www-project-top-ten/",
+    "https://cwe.mitre.org/"
   ]
 }

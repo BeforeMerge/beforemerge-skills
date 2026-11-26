@@ -7,6 +7,7 @@ tags: [security, file-upload, validation, api, nextjs]
 cwe: ["CWE-434"]
 owasp: ["A04:2021"]
 detection_grep: "formData.get.*file|request.formData|File|Blob"
+sources: ["CWE-434", "OWASP-A04:2021", "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html", "https://cwe.mitre.org/data/definitions/434.html"]
 ---
 
 ## Validate File Uploads (Type, Size, Name, Content)

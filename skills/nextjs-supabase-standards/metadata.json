@@ -9,5 +9,12 @@
     "https://supabase.com/docs/guides/auth/server-side/nextjs",
     "https://react.dev",
     "https://beforemerge.dev"
+  ],
+  "sources": [
+    "https://nextjs.org/docs",
+    "https://supabase.com/docs",
+    "https://supabase.com/docs/guides/auth/server-side/nextjs",
+    "https://react.dev",
+    "operator_experience"
   ]
 }

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Without loading.tsx, navigating to a slow page shows nothing until the server responds -- users think the app is broken."
 tags: [quality, nextjs, ux, suspense]
 detection_grep: "loading.tsx"
+sources: ["https://nextjs.org/docs/app/api-reference/file-conventions/loading"]
 ---
 
 ## Use loading.tsx for route-level loading states

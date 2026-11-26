@@ -7,6 +7,7 @@ tags: [security, redirect, validation, nextjs, middleware]
 cwe: ["CWE-601"]
 owasp: ["A01:2021"]
 detection_grep: "redirect|Response.redirect|router.push|router.replace"
+sources: ["CWE-601", "OWASP-A01:2021", "https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html", "https://cwe.mitre.org/data/definitions/601.html"]
 ---
 
 ## Validate All Redirect URLs

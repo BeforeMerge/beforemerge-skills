@@ -7,6 +7,7 @@ tags: [security, file-access, abspath, wordpress]
 cwe: ["CWE-425"]
 owasp: ["A05:2021"]
 detection_grep: "defined.*ABSPATH|defined.*WPINC"
+sources: ["CWE-425", "OWASP-A05:2021", "https://developer.wordpress.org/plugins/security/", "https://cwe.mitre.org/data/definitions/425.html"]
 ---
 
 ## Guard Plugin and Theme PHP Files Against Direct Access

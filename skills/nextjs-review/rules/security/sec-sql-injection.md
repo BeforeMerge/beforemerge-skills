@@ -7,6 +7,7 @@ tags: [security, sql-injection, database, prisma, drizzle, nextjs]
 cwe: ["CWE-89"]
 owasp: ["A03:2021"]
 detection_grep: "\\$queryRaw|execute(|query("
+sources: ["CWE-89", "OWASP-A03:2021", "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html", "https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/raw-queries"]
 ---
 
 ## Never Build Database Queries with String Concatenation

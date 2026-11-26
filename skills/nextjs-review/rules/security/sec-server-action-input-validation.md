@@ -7,6 +7,7 @@ tags: [security, server-actions, input-validation, deserialization, zod, nextjs,
 cwe: ["CWE-20", "CWE-502"]
 owasp: ["A08:2021"]
 detection_grep: "\"use server\""
+sources: ["CWE-20", "CWE-502", "OWASP-A08:2021", "https://nvd.nist.gov/vuln/detail/CVE-2025-55182", "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components", "https://cwe.mitre.org/data/definitions/502.html"]
 ---
 
 ## Validate All Server Action Inputs at the Boundary

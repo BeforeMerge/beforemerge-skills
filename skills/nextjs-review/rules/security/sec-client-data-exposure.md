@@ -7,6 +7,7 @@ tags: [security, server-components, client-components, data-exposure, nextjs]
 cwe: ["CWE-200"]
 owasp: ["A01:2021"]
 detection_grep: "process\\.env\\."
+sources: ["CWE-200", "OWASP-A01:2021", "https://nextjs.org/docs/app/building-your-application/rendering/server-components", "https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns#keeping-server-only-code-out-of-the-client-environment"]
 ---
 
 ## Never Pass Secrets or Sensitive Data to Client Components

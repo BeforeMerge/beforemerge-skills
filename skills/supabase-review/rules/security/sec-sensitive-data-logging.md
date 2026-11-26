@@ -7,6 +7,7 @@ tags: [security, supabase, logging, secrets, pii, oauth]
 cwe: ["CWE-532"]
 owasp: ["A09:2021"]
 detection_grep: "console.log"
+sources: ["CWE-532", "OWASP-A09:2021", "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html", "https://cwe.mitre.org/data/definitions/532.html"]
 ---
 
 ## Never Log Sensitive Data

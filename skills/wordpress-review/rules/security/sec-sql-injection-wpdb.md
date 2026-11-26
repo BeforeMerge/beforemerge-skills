@@ -7,6 +7,7 @@ tags: [security, sql-injection, database, wpdb, wordpress]
 cwe: ["CWE-89"]
 owasp: ["A03:2021"]
 detection_grep: "$wpdb->query|$wpdb->get_results|$wpdb->get_row|$wpdb->get_var"
+sources: ["CWE-89", "OWASP-A03:2021", "https://developer.wordpress.org/reference/classes/wpdb/prepare/", "https://cwe.mitre.org/data/definitions/89.html"]
 ---
 
 ## Always Use $wpdb->prepare() for Database Queries

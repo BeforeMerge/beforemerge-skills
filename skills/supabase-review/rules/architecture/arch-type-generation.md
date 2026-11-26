@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents type drift between application code and database schema
 tags: [architecture, supabase, typescript, types, codegen, schema]
 detection_grep: "Database"
+sources: ["https://supabase.com/docs/guides/api/rest/generating-types", "https://supabase.com/docs/reference/cli/supabase-gen-types"]
 ---
 
 ## Generate Database Types from Schema

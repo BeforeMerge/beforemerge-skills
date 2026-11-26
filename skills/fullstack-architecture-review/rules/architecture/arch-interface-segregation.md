@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: Monolithic interfaces increase coupling, bloat test mocks, and make refactoring risky
 tags: [architecture, solid, interface-segregation, typescript]
 detection_grep: "interface.*Repository"
+sources: ["https://web.archive.org/web/20150905081110/http://www.objectmentor.com/resources/articles/isp.pdf"]
 ---
 
 ## Segregate Repository Interfaces by Consumer Need

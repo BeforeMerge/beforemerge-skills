@@ -7,6 +7,7 @@ tags: [security, csrf, server-actions, authentication, nextjs]
 cwe: ["CWE-352"]
 owasp: ["A01:2021"]
 detection_grep: "allowedOrigins|serverActions"
+sources: ["CWE-352", "OWASP-A01:2021", "https://nextjs.org/blog/security-nextjs-server-components-actions", "https://cwe.mitre.org/data/definitions/352.html"]
 ---
 
 ## Understand CSRF Limitations in Server Actions

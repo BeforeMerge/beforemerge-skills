@@ -6,6 +6,7 @@ impact_description: prevents full table scans, 10-1000x query speedup on large t
 tags: [performance, supabase, postgresql, indexes, queries]
 cwe: ["CWE-405"]
 detection_grep: ".eq('"
+sources: ["CWE-405", "https://supabase.com/docs/guides/database/extensions/index_advisor", "https://www.postgresql.org/docs/current/using-explain.html", "https://supabase.com/docs/guides/platform/performance"]
 ---
 
 ## Add Indexes for Filtered and Ordered Columns

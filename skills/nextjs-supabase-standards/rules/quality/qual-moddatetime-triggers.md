@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Manually setting updated_at in application code is error-prone -- any code path that updates the row but forgets to set updated_at leaves stale timestamps."
 tags: [quality, supabase, postgresql, migrations]
 detection_grep: "moddatetime"
+sources: ["https://www.postgresql.org/docs/current/contrib-spi.html"]
 ---
 
 ## Use moddatetime triggers for updated_at columns

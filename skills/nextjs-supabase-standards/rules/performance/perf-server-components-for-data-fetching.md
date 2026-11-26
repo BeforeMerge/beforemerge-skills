@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Client-side fetching adds loading spinners, waterfalls, exposed API endpoints, and unnecessary JavaScript to the bundle."
 tags: [performance, nextjs, server-components, data-fetching]
 detection_grep: "useEffect.*fetch"
+sources: ["https://nextjs.org/docs/app/getting-started/fetching-data", "https://nextjs.org/docs/app/getting-started/server-and-client-components"]
 ---
 
 ## Use server components for data fetching by default

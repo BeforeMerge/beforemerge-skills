@@ -14,6 +14,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const { lintAll, report } = require('./lint')
 
 // ─── Configuration ───────────────────────────────────────────────────────────
 
@@ -194,6 +195,15 @@ function buildAgentsMd(skillDir, skillName) {
 
 function main() {
   const targetSkill = process.argv[2]
+
+  // Refuse to compile skills that fail the provenance and structure gate.
+  const lint = lintAll(targetSkill ? [targetSkill] : [])
+  if (lint.errors.length) {
+    report(lint)
+    console.error('Build aborted: fix the lint errors above (node scripts/lint.js).')
+    process.exit(1)
+  }
+
   const skills = fs.readdirSync(SKILLS_DIR, { withFileTypes: true })
     .filter((d) => d.isDirectory())
     .filter((d) => !targetSkill || d.name === targetSkill)

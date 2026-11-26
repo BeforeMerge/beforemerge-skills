@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces payload size 2-10x, enables index-only scans, prevents data leakage
 tags: [performance, supabase, queries, select, bandwidth]
 detection_grep: "select('*')"
+sources: ["https://supabase.com/docs/reference/javascript/select", "https://www.postgresql.org/docs/current/indexes-index-only-scans.html"]
 ---
 
 ## Avoid select('*') — Request Only the Columns You Need

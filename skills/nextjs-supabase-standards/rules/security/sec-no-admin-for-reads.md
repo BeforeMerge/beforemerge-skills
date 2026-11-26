@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Using the admin client for reads bypasses all access controls. A missing WHERE clause returns all data across all organizations."
 tags: [security, supabase, rls, server-actions]
 detection_grep: "createAdminClient.*select"
+sources: ["CWE-269", "https://supabase.com/docs/guides/api/api-keys", "https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Never use the admin client for reads in server actions

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Revalidating only one path leaves stale data on other pages that display the same content."
 tags: [quality, nextjs, caching, server-actions]
 detection_grep: "revalidatePath"
+sources: ["https://nextjs.org/docs/app/api-reference/functions/revalidatePath"]
 ---
 
 ## Revalidate all affected paths after mutations

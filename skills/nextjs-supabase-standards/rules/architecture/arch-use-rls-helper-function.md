@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Repeating the access check logic inline in every policy is error-prone. A centralized helper ensures consistency and is easier to update."
 tags: [architecture, supabase, rls, postgresql]
 detection_grep: "is_org_member"
+sources: ["https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Use a helper function for org-scoped RLS checks

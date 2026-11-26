@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "A missing variable in .env.example means new team members waste time figuring out what environment variables are needed."
 tags: [quality, env, developer-experience]
 detection_grep: "process.env"
+sources: ["https://12factor.net/config", "operator_experience"]
 ---
 
 ## Keep .env.example in sync with actual environment variables

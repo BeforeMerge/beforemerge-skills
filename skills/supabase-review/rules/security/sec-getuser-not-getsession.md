@@ -7,6 +7,7 @@ tags: [security, supabase, authentication, session, cookies]
 cwe: ["CWE-287"]
 owasp: ["A07:2021"]
 detection_grep: "getSession"
+sources: ["CWE-287", "OWASP-A07:2021", "https://supabase.com/docs/reference/javascript/auth-getuser", "https://cwe.mitre.org/data/definitions/287.html"]
 ---
 
 ## Use getUser() Instead of getSession() for Auth Checks

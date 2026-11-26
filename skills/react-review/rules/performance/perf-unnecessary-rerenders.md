@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents unnecessary re-renders that degrade UI responsiveness
 tags: [performance, react, rerenders, memoization, useMemo, useCallback]
 detection_grep: "style={{"
+sources: ["https://react.dev/reference/react/useMemo"]
 ---
 
 ## Avoid Inline Object/Array/Function Creation in JSX Props

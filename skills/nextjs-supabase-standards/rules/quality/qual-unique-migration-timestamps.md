@@ -4,6 +4,7 @@ description: "Migration files must have unique timestamps: YYYYMMDDHHMMSS_descri
 impact: HIGH
 impact_description: "Duplicate migration timestamps cause schema_migrations conflicts, breaking deployment and requiring manual database intervention."
 tags: [quality, supabase, postgresql, migrations]
+sources: ["https://supabase.com/docs/guides/deployment/database-migrations", "https://supabase.com/docs/reference/cli/supabase-migration-new"]
 ---
 
 ## Use unique, timestamped migration filenames

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents silent data corruption from outdated state references in async operations
 tags: [performance, react, closures, hooks, state, useeffect, nextjs]
 detection_grep: "setInterval.*useState|setTimeout.*useState|addEventListener.*useState"
+sources: ["https://react.dev/learn/removing-effect-dependencies", "https://overreacted.io/a-complete-guide-to-useeffect/"]
 ---
 
 ## Avoid Stale Closure Bugs in Hooks and Callbacks

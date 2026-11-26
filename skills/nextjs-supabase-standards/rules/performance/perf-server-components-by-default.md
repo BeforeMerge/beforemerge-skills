@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Every \"use client\" directive adds JavaScript to the browser bundle. Unnecessary client components increase page load time and time-to-interactive."
 tags: [performance, nextjs, server-components, react]
 detection_grep: "\"use client\""
+sources: ["https://nextjs.org/docs/app/getting-started/server-and-client-components"]
 ---
 
 ## Server components by default — client only when needed

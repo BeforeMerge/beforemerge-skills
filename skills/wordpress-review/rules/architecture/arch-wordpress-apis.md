@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: ensures compatibility with caching layers, managed hosts, security plugins, and multisite
 tags: [architecture, apis, compatibility, best-practices, wordpress]
 detection_grep: "curl_init|file_put_contents|file_get_contents.*http|\\bmail\\("
+sources: ["https://developer.wordpress.org/apis/making-http-requests/", "https://developer.wordpress.org/apis/filesystem/", "https://developer.wordpress.org/reference/functions/wp_mail/"]
 ---
 
 ## Use WordPress APIs Instead of Raw PHP Functions

@@ -7,6 +7,7 @@ tags: [security, supabase, service-role, rls, privilege-escalation]
 cwe: ["CWE-269"]
 owasp: ["A04:2021"]
 detection_grep: "createServiceRoleClient"
+sources: ["CWE-269", "OWASP-A04:2021", "https://supabase.com/docs/guides/api/api-keys", "https://cwe.mitre.org/data/definitions/269.html"]
 ---
 
 ## Never Use Service Role Client in Auth-Context Routes

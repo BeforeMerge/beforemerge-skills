@@ -1,0 +1,15 @@
+{
+  "name": "beforemerge-skills",
+  "private": true,
+  "description": "BeforeMerge code review skills for AI coding agents",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "lint": "node scripts/lint.js",
+    "test": "node --test \"tests/*.test.js\"",
+    "check": "node scripts/lint.js && node --test \"tests/*.test.js\""
+  }
+}

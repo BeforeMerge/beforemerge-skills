@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: 40-80% image size reduction and elimination of Cumulative Layout Shift
 tags: [performance, images, core-web-vitals, cls, lcp, nextjs]
 detection_grep: "<img |<img>"
+sources: ["https://nextjs.org/docs/app/building-your-application/optimizing/images", "https://web.dev/articles/cls"]
 ---
 
 ## Use next/image Instead of Raw img Tags
