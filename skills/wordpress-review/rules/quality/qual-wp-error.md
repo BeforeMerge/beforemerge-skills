@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: enables proper error reporting, debugging, and user-facing error messages
 tags: [quality, error-handling, wp-error, debugging, wordpress]
 detection_grep: "WP_Error|is_wp_error|return false"
+sources: ["https://developer.wordpress.org/reference/classes/wp_error/", "https://developer.wordpress.org/plugins/security/data-validation/"]
 ---
 
 ## Use WP_Error for Error Handling — Not Exceptions or False

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Without error.tsx, an unhandled error in any server component crashes the entire route tree up to the nearest error boundary."
 tags: [quality, nextjs, error-handling]
 detection_grep: "error.tsx"
+sources: ["https://nextjs.org/docs/app/getting-started/error-handling", "https://nextjs.org/docs/app/api-reference/file-conventions/error"]
 ---
 
 ## Use error.tsx for route-level error boundaries

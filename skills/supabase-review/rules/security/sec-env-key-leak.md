@@ -7,6 +7,7 @@ tags: [security, supabase, environment-variables, secrets, nextjs]
 cwe: ["CWE-798"]
 owasp: ["A07:2021"]
 detection_grep: "NEXT_PUBLIC_SUPABASE_SERVICE"
+sources: ["CWE-798", "OWASP-A07:2021", "https://nextjs.org/docs/app/building-your-application/configuring/environment-variables", "https://supabase.com/docs/guides/api/api-keys", "https://cwe.mitre.org/data/definitions/798.html"]
 ---
 
 ## Never Expose Service Role Key in Client-Side Code

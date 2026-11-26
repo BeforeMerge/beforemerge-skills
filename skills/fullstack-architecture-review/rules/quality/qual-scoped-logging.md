@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: enables production debugging with structured, searchable, context-rich log entries
 tags: [quality, logging, debugging, observability, production]
 detection_grep: "console.log"
+sources: ["https://www.thoughtworks.com/en-us/radar/techniques/structured-logging", "https://12factor.net/logs"]
 ---
 
 ## Use Scoped Loggers with Structured Context

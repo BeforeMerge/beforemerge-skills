@@ -4,6 +4,7 @@ description: "Server actions are async functions. Test them directly without ren
 impact: HIGH
 impact_description: "Testing server actions through UI rendering is slow, flaky, and doesn't isolate the mutation logic from rendering concerns."
 tags: [quality, nextjs, server-actions, testing]
+sources: ["operator_experience"]
 ---
 
 ## Test server actions in isolation

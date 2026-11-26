@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: N HTTP requests reduced to 1, prevents timeouts and connection exhaustion
 tags: [performance, supabase, batch, bulk, insert, upsert]
 detection_grep: "for.*insert("
+sources: ["https://supabase.com/docs/reference/javascript/insert", "https://supabase.com/docs/reference/javascript/upsert", "https://docs.postgrest.org/en/stable/references/api/tables_views.html#bulk-insert"]
 ---
 
 ## Use Batch Operations Instead of Single-Row Loops

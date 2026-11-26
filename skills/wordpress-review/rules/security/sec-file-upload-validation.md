@@ -7,6 +7,7 @@ tags: [security, file-upload, validation, mime, wordpress]
 cwe: ["CWE-434"]
 owasp: ["A04:2021"]
 detection_grep: "move_uploaded_file|$_FILES"
+sources: ["CWE-434", "OWASP-A04:2021", "https://developer.wordpress.org/reference/functions/wp_handle_upload/", "https://cwe.mitre.org/data/definitions/434.html"]
 ---
 
 ## Use wp_handle_upload() with MIME Allowlists for File Uploads

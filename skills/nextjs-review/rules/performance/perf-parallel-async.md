@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: 2-10x faster page loads by eliminating request waterfalls
 tags: [performance, async, waterfalls, server-components, nextjs]
 detection_grep: "await "
+sources: ["https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#parallel-data-fetching"]
 ---
 
 ## Parallelize Independent Async Operations

@@ -7,6 +7,7 @@ tags: [security, deserialization, object-injection, php, wordpress]
 cwe: ["CWE-502"]
 owasp: ["A08:2021"]
 detection_grep: "unserialize|maybe_unserialize"
+sources: ["CWE-502", "OWASP-A08:2021", "https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection", "https://cwe.mitre.org/data/definitions/502.html"]
 ---
 
 ## Never Unserialize User-Controlled Data

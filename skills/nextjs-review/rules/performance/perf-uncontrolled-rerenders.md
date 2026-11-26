@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: eliminates cascading re-renders that degrade Core Web Vitals and interaction responsiveness
 tags: [performance, react, rerender, memo, usememo, usecallback, nextjs]
 detection_grep: "style=\\{\\{|onClick=\\{\\(\\)|options=\\{\\[|context.*value=\\{\\{"
+sources: ["https://react.dev/reference/react/memo", "https://kentcdodds.com/blog/usememo-and-usecallback"]
 ---
 
 ## Prevent Unnecessary Re-renders from Unstable References

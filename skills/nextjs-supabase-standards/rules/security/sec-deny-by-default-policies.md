@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "A permissive USING (true) policy on a table with sensitive data exposes all rows to all users, negating the purpose of RLS."
 tags: [security, supabase, rls, postgresql]
 detection_grep: "USING (true)"
+sources: ["CWE-276", "OWASP-A01:2021", "https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Write restrictive RLS policies — deny by default

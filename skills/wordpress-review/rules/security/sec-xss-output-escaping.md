@@ -5,8 +5,9 @@ impact: CRITICAL
 impact_description: prevents cross-site scripting enabling session hijacking, admin takeover, and defacement
 tags: [security, xss, escaping, output, wordpress]
 cwe: ["CWE-79"]
-owasp: ["A07:2021"]
+owasp: ["A03:2021"]
 detection_grep: "echo $|echo $_|print $_"
+sources: ["CWE-79", "OWASP-A03:2021", "https://developer.wordpress.org/apis/security/escaping/", "https://cwe.mitre.org/data/definitions/79.html"]
 ---
 
 ## Escape All Output with the Correct Context Function

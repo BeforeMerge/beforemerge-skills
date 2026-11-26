@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Without per-group error boundaries, an error in one section crashes the entire app up to the root error boundary."
 tags: [quality, nextjs, error-handling, app-router]
 detection_grep: "error.tsx"
+sources: ["https://nextjs.org/docs/app/getting-started/error-handling", "https://nextjs.org/docs/app/api-reference/file-conventions/error"]
 ---
 
 ## Add error.tsx to every route group

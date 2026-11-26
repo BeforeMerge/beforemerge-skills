@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Raw img tags serve full-size images without optimization. next/image provides WebP/AVIF, responsive sizing, lazy loading, and CLS prevention."
 tags: [performance, nextjs, images, core-web-vitals]
 detection_grep: "<img "
+sources: ["https://nextjs.org/docs/app/getting-started/images"]
 ---
 
 ## Use next/image for all images

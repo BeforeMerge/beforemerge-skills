@@ -4,6 +4,7 @@ description: "Use atomic design to structure components: atoms (Button, Input), 
 impact: MEDIUM
 impact_description: "Without structured organization, components become a flat list that's hard to navigate and creates unclear dependency hierarchies."
 tags: [quality, react, project-structure, components]
+sources: ["https://atomicdesign.bradfrost.com/chapter-2/"]
 ---
 
 ## Organize components into atoms, molecules, organisms

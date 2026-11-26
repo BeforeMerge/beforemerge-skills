@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces memory usage and page load time by preventing megabytes of unused data from loading on every request
 tags: [performance, database, options, autoload, memory, wordpress]
 detection_grep: "add_option|update_option"
+sources: ["https://developer.wordpress.org/plugins/settings/options-api/", "https://docs.wpvip.com/wordpress-on-vip/code-review/autoloaded-options/"]
 ---
 
 ## Disable Autoload for Large or Infrequently Used Options

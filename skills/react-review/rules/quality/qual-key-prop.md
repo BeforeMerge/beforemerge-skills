@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents state corruption and incorrect UI rendering in dynamic lists
 tags: [quality, react, key-prop, lists, reconciliation]
 detection_grep: "key={index}"
+sources: ["https://react.dev/learn/rendering-lists#why-does-react-need-keys"]
 ---
 
 ## Never Use Array Index as Key for Dynamic Lists

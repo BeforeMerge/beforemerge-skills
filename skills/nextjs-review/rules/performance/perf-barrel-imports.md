@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: 200-800ms import cost reduction, significantly faster builds and cold starts
 tags: [performance, bundle-size, imports, tree-shaking, nextjs]
 detection_grep: "from 'lucide-react'|from '@mui/material'|from 'lodash'|from 'react-icons'"
+sources: ["https://vercel.com/blog/how-we-optimized-package-imports-in-next-js"]
 ---
 
 ## Avoid Barrel File Imports in Client Components

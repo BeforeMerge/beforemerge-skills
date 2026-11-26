@@ -6,6 +6,7 @@ impact_description: prevents delayed runtime crashes from data that silently byp
 tags: [quality, typescript, type-assertions, validation, type-safety, nextjs]
 cwe: ["CWE-20"]
 detection_grep: "as \\w+|await.*json().*as|formData.*as"
+sources: ["CWE-20", "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions", "https://zod.dev/", "https://cwe.mitre.org/data/definitions/20.html"]
 ---
 
 ## Never Use Type Assertions on External Data — Validate Instead

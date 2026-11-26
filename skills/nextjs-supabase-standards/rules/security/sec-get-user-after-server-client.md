@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "Running code between client creation and getUser() can corrupt the session cookie state, causing users to be randomly logged out with no clear cause."
 tags: [security, supabase, auth, middleware]
 detection_grep: "createServerClient"
+sources: ["https://supabase.com/docs/guides/auth/server-side/nextjs"]
 ---
 
 ## Call auth.getUser() immediately after creating the server client in middleware

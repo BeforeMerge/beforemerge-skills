@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Next.js caches aggressively. Without explicit revalidation after mutations, the UI shows stale data until the cache expires."
 tags: [quality, nextjs, data-fetching, caching]
 detection_grep: "revalidatePath"
+sources: ["https://nextjs.org/docs/app/api-reference/functions/revalidatePath", "https://nextjs.org/docs/app/getting-started/mutating-data"]
 ---
 
 ## Use revalidatePath after server action mutations

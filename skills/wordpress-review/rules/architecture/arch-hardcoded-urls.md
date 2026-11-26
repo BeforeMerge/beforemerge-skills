@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents broken paths across environments, subdirectory installs, and multisite configurations
 tags: [architecture, paths, urls, portability, wordpress]
 detection_grep: "https?://.*wp-content|/var/www|/home/"
+sources: ["https://developer.wordpress.org/plugins/plugin-basics/determining-plugin-and-content-directories/"]
 ---
 
 ## Use WordPress Path and URL Functions — Never Hardcode

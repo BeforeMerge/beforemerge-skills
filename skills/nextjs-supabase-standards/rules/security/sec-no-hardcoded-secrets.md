@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "Hardcoded secrets end up in git history, CI logs, and client bundles. They cannot be rotated without a code change."
 tags: [security, secrets, env]
 detection_grep: "(api_key|secret|password|token)\s*=\s*['\"]"
+sources: ["CWE-798", "OWASP-A07:2021", "https://nextjs.org/docs/app/guides/environment-variables"]
 ---
 
 ## Never hardcode API keys or secrets in source code

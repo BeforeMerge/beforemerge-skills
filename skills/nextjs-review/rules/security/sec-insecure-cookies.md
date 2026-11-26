@@ -7,6 +7,7 @@ tags: [security, cookies, session, authentication, xss, csrf, nextjs]
 cwe: ["CWE-614", "CWE-1004"]
 owasp: ["A05:2021"]
 detection_grep: "cookies().set|setCookie|Set-Cookie"
+sources: ["CWE-614", "CWE-1004", "OWASP-A05:2021", "https://nextjs.org/docs/app/api-reference/functions/cookies", "https://cwe.mitre.org/data/definitions/614.html", "https://cwe.mitre.org/data/definitions/1004.html"]
 ---
 
 ## Set Secure Cookie Attributes (HttpOnly, Secure, SameSite)

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces database queries from N+1 to 2 in post loops, critical for archive pages
 tags: [performance, database, queries, n-plus-one, meta, wordpress]
 detection_grep: "get_post_meta.*get_the_ID|get_post_meta.*\\$post->ID"
+sources: ["https://developer.wordpress.org/reference/classes/wp_query/", "https://developer.wordpress.org/reference/functions/update_meta_cache/"]
 ---
 
 ## Avoid N+1 Queries in Post Loops

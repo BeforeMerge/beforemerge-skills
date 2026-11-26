@@ -25,7 +25,8 @@ Example: `skills/nextjs-review/rules/security/sec-csrf-protection.md`
 
 Every rule must include:
 
-- **YAML frontmatter** with `title`, `impact`, and `tags`
+- **YAML frontmatter** with `title`, `impact`, `tags`, and `sources`
+- **`sources:`** listing what the guidance relies on: CWE/OWASP ids (`CWE-89`, `OWASP-A03:2021`), CVE/GHSA ids, `https://` links to official docs, or `operator_experience` if it comes from your own incidents. Cite only what the rule actually depends on, and check every link resolves. The lint fails without it.
 - **Why it matters** — a brief explanation
 - **Incorrect example** — realistic bad code with explanation
 - **Correct example** — the fix, showing minimal changes
@@ -43,10 +44,12 @@ Every rule must include:
 ### 5. Build and Test
 
 ```bash
+npm run lint     # provenance and structure checks (node scripts/lint.js)
+npm test         # lint and install tests
 node scripts/build.js nextjs-review
 ```
 
-Verify the generated `AGENTS.md` includes your rule correctly.
+The build refuses to run while the lint has errors. Verify the generated `AGENTS.md` includes your rule correctly.
 
 ### 6. Submit a PR
 

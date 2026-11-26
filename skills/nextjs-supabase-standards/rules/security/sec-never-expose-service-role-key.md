@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "The service_role key bypasses ALL Row Level Security policies. If leaked to the browser, any user can read, modify, or delete ALL data in your database."
 tags: [security, supabase, secrets, env]
 detection_grep: "NEXT_PUBLIC_SUPABASE_SERVICE"
+sources: ["CWE-200", "CWE-269", "https://supabase.com/docs/guides/api/api-keys", "https://nextjs.org/docs/app/guides/environment-variables"]
 ---
 
 ## Never expose the service_role key to the client

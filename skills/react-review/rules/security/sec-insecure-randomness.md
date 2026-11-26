@@ -6,6 +6,7 @@ impact_description: prevents predictable tokens that enable session hijacking or
 tags: [security, react, randomness, crypto]
 cwe: ["CWE-338"]
 detection_grep: "Math.random()"
+sources: ["CWE-338", "https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID"]
 ---
 
 ## Use Cryptographic Randomness for Tokens and IDs

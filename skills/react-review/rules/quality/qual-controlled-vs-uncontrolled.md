@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents form input bugs and React reconciliation warnings
 tags: [quality, react, forms, controlled-components, uncontrolled-components]
 detection_grep: "defaultValue"
+sources: ["https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components"]
 ---
 
 ## Do Not Mix Controlled and Uncontrolled Input Patterns

@@ -7,6 +7,7 @@ tags: [security, path-traversal, file-system, include, wordpress]
 cwe: ["CWE-22"]
 owasp: ["A01:2021"]
 detection_grep: "include.*$_|require.*$_|readfile.*$_|file_get_contents.*$_"
+sources: ["CWE-22", "OWASP-A01:2021", "https://developer.wordpress.org/reference/functions/sanitize_file_name/", "https://cwe.mitre.org/data/definitions/22.html"]
 ---
 
 ## Prevent Path Traversal in File Operations and Includes

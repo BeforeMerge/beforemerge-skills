@@ -7,6 +7,7 @@ tags: [security, ajax, authentication, authorization, nonce, wordpress]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "wp_ajax_|wp_ajax_nopriv_"
+sources: ["CWE-862", "OWASP-A01:2021", "https://developer.wordpress.org/plugins/javascript/ajax/", "https://cwe.mitre.org/data/definitions/862.html"]
 ---
 
 ## Secure AJAX Handlers with Nonce and Capability Checks

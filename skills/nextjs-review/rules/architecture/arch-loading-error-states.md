@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents full-page loading states and uncontained error propagation
 tags: [architecture, loading, error-handling, suspense, streaming, nextjs]
 detection_grep: "loading.tsx|error.tsx"
+sources: ["https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming", "https://nextjs.org/docs/app/building-your-application/routing/error-handling"]
 ---
 
 ## Implement loading.tsx and error.tsx at Every Route Segment

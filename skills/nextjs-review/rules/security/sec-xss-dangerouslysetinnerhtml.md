@@ -7,6 +7,7 @@ tags: [security, xss, sanitization, react, nextjs]
 cwe: ["CWE-79"]
 owasp: ["A03:2021"]
 detection_grep: "dangerouslySetInnerHTML"
+sources: ["CWE-79", "OWASP-A03:2021", "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html", "https://github.com/cure53/DOMPurify"]
 ---
 
 ## Sanitize All HTML Before Using dangerouslySetInnerHTML

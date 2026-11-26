@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Without the server-only marker, Next.js won't prevent accidental imports into client components. The build succeeds but secrets leak."
 tags: [security, nextjs, server-components, secrets]
 detection_grep: "server-only"
+sources: ["https://nextjs.org/docs/app/getting-started/server-and-client-components"]
 ---
 
 ## Mark server modules with import "server-only"

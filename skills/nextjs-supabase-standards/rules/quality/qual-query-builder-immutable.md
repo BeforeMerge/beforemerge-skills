@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "This is the most common Supabase bug. The filter appears to be applied but is silently discarded, returning unfiltered data."
 tags: [quality, supabase, typescript]
 detection_grep: ".eq("
+sources: ["operator_experience"]
 ---
 
 ## Remember the Supabase query builder is immutable

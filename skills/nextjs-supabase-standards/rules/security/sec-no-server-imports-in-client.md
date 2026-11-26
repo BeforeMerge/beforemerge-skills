@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "Importing server-only modules into client components leaks secrets (database credentials, API keys) into the browser JavaScript bundle. This is a security vulnerability."
 tags: [security, nextjs, server-components, secrets]
 detection_grep: "import.*server-only"
+sources: ["CWE-200", "https://nextjs.org/docs/app/getting-started/server-and-client-components"]
 ---
 
 ## Never import server-only code in client components

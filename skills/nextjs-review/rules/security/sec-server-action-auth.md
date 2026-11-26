@@ -7,6 +7,7 @@ tags: [security, server-actions, authentication, authorization, nextjs]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "\"use server\""
+sources: ["CWE-862", "OWASP-A01:2021", "https://nextjs.org/docs/app/guides/authentication"]
 ---
 
 ## Authenticate Server Actions Like API Routes

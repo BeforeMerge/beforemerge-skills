@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: improves maintainability, testability, and reuse across the codebase
 tags: [architecture, components, composition, single-responsibility, react, nextjs]
 detection_grep: "useState"
+sources: ["https://react.dev/learn/thinking-in-react"]
 ---
 
 ## Break Up God Components Into Focused, Composable Units

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents full-app crashes from isolated component errors
 tags: [quality, react, error-boundaries, reliability, error-handling]
 detection_grep: "componentDidCatch"
+sources: ["https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"]
 ---
 
 ## Add Error Boundaries Around Unreliable UI Sections

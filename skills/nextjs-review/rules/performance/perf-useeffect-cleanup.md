@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents memory leaks, stale state updates on unmounted components, and race conditions
 tags: [performance, react, useeffect, memory-leak, cleanup, nextjs]
 detection_grep: "useEffect|addEventListener|setInterval|setTimeout|subscribe"
+sources: ["https://react.dev/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development", "https://react.dev/learn/you-might-not-need-an-effect"]
 ---
 
 ## Always Return Cleanup Functions from useEffect

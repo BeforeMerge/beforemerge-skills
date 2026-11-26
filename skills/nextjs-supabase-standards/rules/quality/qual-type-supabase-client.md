@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Without generated types, the Supabase client returns `any` for all queries. Column name typos and type mismatches are only caught at runtime."
 tags: [quality, supabase, typescript]
 detection_grep: "Database"
+sources: ["https://supabase.com/docs/guides/api/rest/generating-types"]
 ---
 
 ## Type your Supabase client with generated database types

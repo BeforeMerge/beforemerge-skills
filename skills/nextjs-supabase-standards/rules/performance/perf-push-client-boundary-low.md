@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "A \"use client\" at the page level makes the entire page client-rendered, losing all server component benefits (zero JS, SEO, streaming)."
 tags: [performance, nextjs, server-components, react]
 detection_grep: "\"use client\""
+sources: ["https://nextjs.org/docs/app/getting-started/server-and-client-components"]
 ---
 
 ## Push "use client" boundary as low as possible

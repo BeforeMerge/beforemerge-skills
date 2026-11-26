@@ -7,6 +7,7 @@ tags: [security, supabase, rls, row-level-security, policies, authorization]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "ENABLE ROW LEVEL SECURITY"
+sources: ["CWE-862", "OWASP-A01:2021", "https://supabase.com/docs/guides/database/postgres/row-level-security", "https://www.postgresql.org/docs/current/ddl-rowsecurity.html"]
 ---
 
 ## Close RLS Policy Gaps for All Operations

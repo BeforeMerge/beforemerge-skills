@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: reduces coupling and maintenance burden from deeply threaded props
 tags: [architecture, react, prop-drilling, context, composition]
 detection_grep: "props."
+sources: ["https://react.dev/learn/passing-data-deeply-with-context"]
 ---
 
 ## Eliminate Prop Drilling Through 3+ Component Levels

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents duplicate utilities, reduces bundle size, and maintains consistency
 tags: [quality, dry, discoverability, code-reuse, maintainability]
 detection_grep: "export function"
+sources: ["https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"]
 ---
 
 ## Search Existing Code Before Creating New Utilities

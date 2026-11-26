@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces JavaScript bundle sent to browser, improves load times
 tags: [performance, server-components, client-components, bundle-size, nextjs]
 detection_grep: "'use client'"
+sources: ["https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns"]
 ---
 
 ## Prefer Server Components — Only Add 'use client' When Necessary

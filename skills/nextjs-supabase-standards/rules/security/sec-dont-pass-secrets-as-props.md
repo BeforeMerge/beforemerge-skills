@@ -4,6 +4,7 @@ description: "Props to client components are serialized as JSON and sent to the 
 impact: HIGH
 impact_description: "Passing a full user object with email, role, internal IDs, or API keys as props exposes them in the client bundle."
 tags: [security, nextjs, server-components, secrets]
+sources: ["CWE-200", "https://nextjs.org/docs/app/getting-started/server-and-client-components", "https://nextjs.org/docs/app/guides/data-security"]
 ---
 
 ## Never pass server-only data as props to client components

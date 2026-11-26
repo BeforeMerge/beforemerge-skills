@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Inline server actions mix data mutation logic with UI rendering, making them harder to test, reuse, and reason about."
 tags: [architecture, nextjs, server-actions]
 detection_grep: "\"use server\""
+sources: ["https://nextjs.org/docs/app/getting-started/mutating-data", "https://nextjs.org/docs/app/api-reference/directives/use-server"]
 ---
 
 ## Keep server actions in dedicated files

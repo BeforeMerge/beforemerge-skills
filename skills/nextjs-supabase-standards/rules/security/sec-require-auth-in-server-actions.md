@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Server actions are public HTTP endpoints. Without auth checks, any unauthenticated request can trigger mutations."
 tags: [security, nextjs, server-actions, auth]
 detection_grep: "requireAuth"
+sources: ["CWE-862", "OWASP-A01:2021", "https://nextjs.org/docs/app/guides/authentication", "https://nextjs.org/docs/app/guides/data-security"]
 ---
 
 ## Use requireAuth() as the first call in every authenticated server action

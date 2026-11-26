@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: 2-5x faster page loads by eliminating sequential data fetch waterfalls
 tags: [performance, async, waterfalls, promise-all, server-components, nextjs]
 detection_grep: "await "
+sources: ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all", "https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#parallel-data-fetching"]
 ---
 
 ## Use Promise.all for Independent Data Fetches

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents jank and slow interactions caused by redundant heavy computation
 tags: [performance, react, useMemo, computation, memoization]
 detection_grep: "useMemo"
+sources: ["https://react.dev/reference/react/useMemo"]
 ---
 
 ## Memoize Expensive Computations with useMemo

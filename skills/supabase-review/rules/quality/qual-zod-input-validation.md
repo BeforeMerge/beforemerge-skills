@@ -7,6 +7,7 @@ tags: [quality, supabase, validation, zod, typescript, input, type-safety]
 cwe: ["CWE-20"]
 owasp: ["A03:2021"]
 detection_grep: "as string"
+sources: ["CWE-20", "OWASP-A03:2021", "https://zod.dev/", "https://cwe.mitre.org/data/definitions/20.html"]
 ---
 
 ## Validate Input at Runtime with Zod Instead of Type Assertions

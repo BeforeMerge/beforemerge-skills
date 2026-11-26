@@ -6,6 +6,7 @@ impact_description: prevents runtime crashes from untyped external data that byp
 tags: [quality, typescript, type-safety, any, unknown, validation, nextjs]
 cwe: ["CWE-20"]
 detection_grep: "as any|: any|<any>"
+sources: ["CWE-20", "https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown", "https://cwe.mitre.org/data/definitions/20.html"]
 ---
 
 ## Ban `any` at Trust Boundaries — Use `unknown` with Validation

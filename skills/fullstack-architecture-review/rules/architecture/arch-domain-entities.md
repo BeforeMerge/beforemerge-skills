@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: Framework-coupled entities break portability, testability, and violate clean architecture boundaries
 tags: [architecture, domain, entities, clean-architecture, solid]
 detection_grep: "interface.*Entity"
+sources: ["https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"]
 ---
 
 ## Domain Entities Must Be Framework-Independent

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: constant-time pagination vs. linear degradation on large datasets
 tags: [performance, supabase, pagination, cursor, queries]
 detection_grep: ".range("
+sources: ["https://supabase.com/docs/reference/javascript/range", "https://use-the-index-luke.com/no-offset"]
 ---
 
 ## Use Cursor-Based Pagination Instead of Offset Pagination

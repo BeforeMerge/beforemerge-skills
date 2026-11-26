@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: prevents RLS bypass, auth leaks, and hydration mismatches
 tags: [architecture, supabase, client, server, middleware, nextjs, ssr]
 detection_grep: "createClient"
+sources: ["https://supabase.com/docs/guides/auth/server-side/nextjs", "https://supabase.com/docs/guides/auth/server-side"]
 ---
 
 ## Use the Correct Supabase Client for Each Context

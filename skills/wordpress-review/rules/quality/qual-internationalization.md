@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: enables translation to other languages and prevents XSS through malicious translation files
 tags: [quality, internationalization, i18n, localization, translation, wordpress]
 detection_grep: "echo.*'[A-Z]|_e\\(|__\\("
+sources: ["https://developer.wordpress.org/plugins/internationalization/", "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/"]
 ---
 
 ## Make All User-Facing Strings Translatable

@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: eliminates font-related layout shift (CLS) and removes external network dependency
 tags: [performance, fonts, core-web-vitals, cls, nextjs]
 detection_grep: "fonts.googleapis.com|fonts.google.com|@import.*font|link.*font"
+sources: ["https://nextjs.org/docs/app/building-your-application/optimizing/fonts", "https://web.dev/articles/optimize-cls#web-fonts"]
 ---
 
 ## Use next/font Instead of External Font Loading

@@ -7,6 +7,7 @@ tags: [security, path-traversal, file-system, api, nextjs]
 cwe: ["CWE-22"]
 owasp: ["A01:2021"]
 detection_grep: "fs.readFile|fs.writeFile|path.join.*params|path.resolve.*params"
+sources: ["CWE-22", "OWASP-A01:2021", "https://cwe.mitre.org/data/definitions/22.html", "https://owasp.org/www-community/attacks/Path_Traversal"]
 ---
 
 ## Prevent Path Traversal in API Routes and File Operations

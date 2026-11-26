@@ -7,6 +7,7 @@ tags: [security, supabase, sql-injection, rpc, postgresql]
 cwe: ["CWE-89"]
 owasp: ["A03:2021"]
 detection_grep: ".rpc("
+sources: ["CWE-89", "OWASP-A03:2021", "https://www.postgresql.org/docs/current/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN", "https://cwe.mitre.org/data/definitions/89.html", "https://owasp.org/www-community/attacks/SQL_Injection"]
 ---
 
 ## Prevent SQL Injection in Custom RPC Functions

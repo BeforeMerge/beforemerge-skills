@@ -7,6 +7,7 @@ tags: [security, supabase, rls, row-level-security, postgresql, authorization]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "CREATE TABLE"
+sources: ["CWE-862", "OWASP-A01:2021", "https://supabase.com/docs/guides/database/postgres/row-level-security", "https://cwe.mitre.org/data/definitions/862.html"]
 ---
 
 ## Enable RLS on Every Table with Complete Policies

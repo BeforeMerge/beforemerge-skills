@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: prevents masking 404s as 500s and enables proper error recovery
 tags: [quality, supabase, error-handling, postgrest, error-codes]
 detection_grep: "if (error)"
+sources: ["https://docs.postgrest.org/en/stable/references/errors.html", "https://www.postgresql.org/docs/current/errcodes-appendix.html"]
 ---
 
 ## Distinguish Not-Found from Other Supabase Errors

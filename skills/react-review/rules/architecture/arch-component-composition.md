@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: improves readability, testability, and extensibility of component APIs
 tags: [architecture, react, composition, compound-components, render-props]
 detection_grep: "? <"
+sources: ["https://react.dev/learn/passing-props-to-a-component"]
 ---
 
 ## Prefer Composition Over Monolithic Conditional Rendering

@@ -9,5 +9,11 @@
     "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
     "https://owasp.org/www-project-top-ten/",
     "https://beforemerge.dev"
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/SOLID",
+    "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+    "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+    "https://owasp.org/www-project-top-ten/"
   ]
 }

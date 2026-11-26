@@ -7,6 +7,7 @@ tags: [security, cors, api, route-handlers, nextjs]
 cwe: ["CWE-942"]
 owasp: ["A05:2021"]
 detection_grep: "Access-Control-Allow-Origin|cors|CORS"
+sources: ["CWE-942", "OWASP-A05:2021", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS", "https://cwe.mitre.org/data/definitions/942.html"]
 ---
 
 ## Restrict CORS to Specific Allowed Origins

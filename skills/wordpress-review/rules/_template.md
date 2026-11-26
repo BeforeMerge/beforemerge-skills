@@ -8,6 +8,7 @@ cwe: ["CWE-XXX"]
 owasp: ["A0X:2021"]
 detection_grep: "pattern-to-search-for"
 detection_semgrep: "pattern: $EXPR"
+sources: ["CWE-XXX", "OWASP-A0X:2021", "https://example.com/official-doc"]
 ---
 
 ## Rule Title Here

@@ -7,6 +7,7 @@ tags: [quality, sanitization, input-validation, security, wordpress]
 cwe: ["CWE-20"]
 owasp: ["A03:2021"]
 detection_grep: "$_POST[|$_GET[|$_REQUEST["
+sources: ["CWE-20", "OWASP-A03:2021", "https://developer.wordpress.org/apis/security/sanitizing/", "https://cwe.mitre.org/data/definitions/20.html"]
 ---
 
 ## Sanitize All User Input with Type-Appropriate Functions

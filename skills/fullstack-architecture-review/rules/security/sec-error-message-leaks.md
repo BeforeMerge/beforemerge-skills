@@ -6,6 +6,7 @@ impact_description: prevents leaking database schemas, file paths, and internal 
 tags: [security, error-handling, information-disclosure, api, nextjs]
 cwe: ["CWE-209"]
 detection_grep: "error.message"
+sources: ["CWE-209", "https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html", "https://cwe.mitre.org/data/definitions/209.html"]
 ---
 
 ## Never Expose Raw Errors or Stack Traces to Clients

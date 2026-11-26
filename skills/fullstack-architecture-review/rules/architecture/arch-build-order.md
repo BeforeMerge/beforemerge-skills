@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: Top-down development lets UI concerns leak into data models, creating tightly coupled systems
 tags: [architecture, clean-architecture, build-order, planning]
 detection_grep: "from.*components"
+sources: ["https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"]
 ---
 
 ## Build Features Bottom-Up from Domain to Presentation

@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: reduces unnecessary HTTP requests and JavaScript parse time on pages that don't need plugin assets
 tags: [performance, scripts, styles, enqueue, assets, wordpress]
 detection_grep: "echo.*<script|echo.*<link.*stylesheet|wp_head.*script"
+sources: ["https://developer.wordpress.org/reference/functions/wp_enqueue_script/", "https://developer.wordpress.org/plugins/javascript/enqueuing/"]
 ---
 
 ## Enqueue Scripts and Styles Properly with Conditional Loading

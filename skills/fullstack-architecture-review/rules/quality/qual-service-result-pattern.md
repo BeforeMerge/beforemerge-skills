@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: ensures consistent, type-safe error handling across all service boundaries
 tags: [quality, error-handling, service-result, discriminated-union, typescript]
 detection_grep: "ServiceResult"
+sources: ["https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions", "https://fsharpforfunandprofit.com/rop/"]
 ---
 
 ## Use Consistent ServiceResult Type for All Service Returns

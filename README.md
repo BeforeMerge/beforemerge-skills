@@ -31,6 +31,27 @@ npx skills add BeforeMerge/beforemerge-skills --skill wordpress-review
 
 Or browse the rules directly in `skills/*/rules/`.
 
+### Install into several agent tools at once
+
+From a clone, `scripts/install.sh` copies every skill into each agent tool it finds on your machine:
+
+```bash
+git clone https://github.com/BeforeMerge/beforemerge-skills.git
+cd beforemerge-skills
+bash scripts/install.sh              # every detected tool
+bash scripts/install.sh --all        # both locations, detected or not
+bash scripts/install.sh --link       # symlink instead of copy, so `git pull` updates everything
+bash scripts/install.sh --dry-run    # show what would change
+bash scripts/install.sh --uninstall  # remove what this script installed
+```
+
+| Flag | Location | Read by |
+|------|----------|---------|
+| `--claude` | `~/.claude/skills/` | [Claude Code](https://code.claude.com/docs/en/skills), [OpenCode](https://opencode.ai/docs/skills) |
+| `--agents` | `~/.agents/skills/` | [OpenAI Codex CLI](https://learn.chatgpt.com/docs/build-skills), [OpenCode](https://opencode.ai/docs/skills) |
+
+Each skill goes into a folder named after its `name` (for example `~/.claude/skills/beforemerge-nextjs-review/`). Re-running is safe. A folder the script did not install is never replaced unless you pass `--force`, and then the old one is moved to `~/.beforemerge-backups/`. `--skill <folder>` installs just one skill. OpenCode reads both locations, so with both populated it may warn about duplicate skill names. No sudo, no dependencies beyond bash.
+
 ## Available Skills
 
 | Skill | Rules | Focus | Status |
@@ -78,6 +99,7 @@ tags: [security, nextjs, server-actions]
 cwe: ["CWE-862"]
 owasp: ["A01:2021"]
 detection_grep: "pattern-to-find-violations"
+sources: ["CWE-862", "OWASP-A01:2021", "https://nextjs.org/docs/app/guides/authentication"]
 ---
 
 ## Rule Title
@@ -99,6 +121,25 @@ Why this matters and what to look for.
 Reference: [link to official docs]
 ```
 
+### Provenance
+
+Every rule declares where its guidance comes from in `sources:`. Each entry is one of:
+
+- a weakness or standard id: `CWE-89`, `OWASP-A03:2021`
+- an advisory: `CVE-2025-29927`, `GHSA-xxxx-xxxx-xxxx`
+- an `https://` link to official documentation
+- `operator_experience`, for rules drawn from BeforeMerge's own incidents and reviews rather than a published source
+
+Each skill's `metadata.json` carries a skill-level `sources` list too. (`SKILL.md` stays limited to the fields in the [Agent Skills spec](https://agentskills.io/specification), which strict validators enforce.)
+
+`node scripts/lint.js` enforces this, along with the skill `name` matching its folder, the 1024-character description limit, no control characters and no real-looking secrets. `node scripts/build.js` runs the same checks and refuses to build on any error.
+
+```bash
+npm run lint    # provenance and structure checks
+npm test        # lint and install.sh tests
+npm run build   # rebuild every AGENTS.md
+```
+
 ## Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
@@ -107,8 +148,9 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 2. Copy `rules/_template.md` to the appropriate directory
 3. Follow the naming convention: `prefix-description.md` (e.g., `sec-sql-injection.md`)
 4. Include bad → good code examples with explanations
-5. Add CWE/OWASP mappings where applicable
-6. Submit a PR
+5. Add CWE/OWASP mappings where applicable, and list what the rule relies on in `sources:`
+6. Run `npm run lint` and `npm test`
+7. Submit a PR
 
 ## Philosophy
 

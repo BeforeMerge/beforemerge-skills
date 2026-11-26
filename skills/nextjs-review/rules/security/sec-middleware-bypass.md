@@ -7,6 +7,7 @@ tags: [security, middleware, authentication, authorization, nextjs, cve]
 cwe: ["CWE-287"]
 owasp: ["A01:2021"]
 detection_grep: "middleware.ts"
+sources: ["CWE-287", "OWASP-A01:2021", "https://nvd.nist.gov/vuln/detail/CVE-2025-29927", "https://vercel.com/blog/postmortem-on-next-js-middleware-bypass", "https://cwe.mitre.org/data/definitions/287.html"]
 ---
 
 ## Never Rely Solely on Middleware for Authorization

@@ -6,6 +6,7 @@ impact_description: prevents silent failures and null reference crashes in produ
 tags: [quality, supabase, error-handling, typescript, null-safety]
 cwe: ["CWE-252"]
 detection_grep: "const { data }"
+sources: ["CWE-252", "https://supabase.com/docs/reference/javascript/select", "https://cwe.mitre.org/data/definitions/252.html"]
 ---
 
 ## Always Check Error Before Using Data from Supabase Queries

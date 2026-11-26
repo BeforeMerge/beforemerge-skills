@@ -22,4 +22,12 @@ node scripts/build.js
 
 # Build a specific skill
 node scripts/build.js nextjs-review
+
+# Provenance and structure checks (the build runs these first)
+node scripts/lint.js
+
+# Lint and install.sh tests
+npm test
 ```
+
+Every rule must declare `sources:` in its frontmatter (CWE/OWASP/CVE/GHSA ids, official `https://` docs, or `operator_experience`); each skill's `metadata.json` has a skill-level `sources` list. Install into local agent tools with `bash scripts/install.sh` (see README).

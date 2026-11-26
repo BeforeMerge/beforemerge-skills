@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Git on macOS is case-insensitive by default. A file renamed from MyComponent.tsx to myComponent.tsx won't be tracked as a change, causing bugs on Linux CI."
 tags: [quality, nextjs, project-structure, conventions]
 detection_grep: "[A-Z].*\.tsx?$"
+sources: ["operator_experience"]
 ---
 
 ## Use kebab-case for file and directory names

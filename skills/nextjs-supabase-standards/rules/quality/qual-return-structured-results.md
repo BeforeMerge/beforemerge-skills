@@ -4,6 +4,7 @@ description: "Return { success: true, data } or { success: false, error } instea
 impact: MEDIUM
 impact_description: "Thrown errors from server actions surface as generic \"something went wrong\" in the UI. Structured results enable specific error messages."
 tags: [quality, nextjs, server-actions, error-handling]
+sources: ["https://nextjs.org/docs/app/getting-started/error-handling"]
 ---
 
 ## Return structured results from server actions

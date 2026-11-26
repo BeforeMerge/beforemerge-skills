@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Large client libraries loaded eagerly increase the initial page bundle size, slowing down first contentful paint."
 tags: [performance, nextjs, code-splitting, react]
 detection_grep: "next/dynamic"
+sources: ["https://nextjs.org/docs/app/guides/lazy-loading"]
 ---
 
 ## Use dynamic imports for heavy client components

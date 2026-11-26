@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: improves perceived load time by showing content as it becomes available
 tags: [performance, suspense, streaming, server-components, loading-states, nextjs]
 detection_grep: "async function.*Page"
+sources: ["https://react.dev/reference/react/Suspense", "https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming"]
 ---
 
 ## Stream Slow Content with Suspense Boundaries

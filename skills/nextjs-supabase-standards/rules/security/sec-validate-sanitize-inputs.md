@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "Unvalidated input can cause type errors, constraint violations, or injection attacks. Validation at the boundary catches these early."
 tags: [security, validation, nextjs, server-actions]
 detection_grep: "z.object"
+sources: ["CWE-20", "OWASP-A03:2021", "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html", "https://zod.dev/"]
 ---
 
 ## Validate and sanitize all user input

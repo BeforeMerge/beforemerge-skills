@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "any silently turns off TypeScript for that value. Bugs propagate through the codebase without any compile-time warnings."
 tags: [quality, typescript]
 detection_grep: ":\s*any"
+sources: ["https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown", "https://www.typescriptlang.org/tsconfig/#noImplicitAny"]
 ---
 
 ## Never use any — use unknown for truly unknown types

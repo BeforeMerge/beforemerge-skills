@@ -5,6 +5,7 @@ impact: MEDIUM
 impact_description: "Manual useEffect + useState + fetch patterns require re-implementing caching, revalidation, error handling, and loading states that SWR handles automatically."
 tags: [architecture, react, data-fetching, swr]
 detection_grep: "useEffect.*setInterval"
+sources: ["https://swr.vercel.app/", "https://tanstack.com/query/latest"]
 ---
 
 ## Use SWR or React Query for client-side real-time data

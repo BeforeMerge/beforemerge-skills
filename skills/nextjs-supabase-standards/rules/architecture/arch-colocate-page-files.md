@@ -4,6 +4,7 @@ description: "Keep page.tsx, layout.tsx, loading.tsx, and error.tsx together in 
 impact: MEDIUM
 impact_description: "Scattering related files across directories increases navigation time and makes data dependencies unclear."
 tags: [architecture, nextjs, app-router, project-structure]
+sources: ["https://nextjs.org/docs/app/getting-started/project-structure"]
 ---
 
 ## Colocate page files with their route segment

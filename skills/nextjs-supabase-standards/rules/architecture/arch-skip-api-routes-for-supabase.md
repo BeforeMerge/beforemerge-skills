@@ -4,6 +4,7 @@ description: "Server components can query Supabase directly. Don't create API ro
 impact: HIGH
 impact_description: "Unnecessary API routes add latency, code, and maintenance burden without security benefit when server components already run on the server."
 tags: [architecture, nextjs, supabase, data-fetching]
+sources: ["https://nextjs.org/docs/app/getting-started/fetching-data", "https://supabase.com/docs/guides/auth/server-side/nextjs"]
 ---
 
 ## Query Supabase directly in server components — skip API routes

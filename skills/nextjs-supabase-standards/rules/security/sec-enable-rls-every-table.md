@@ -5,6 +5,7 @@ impact: CRITICAL
 impact_description: "A single table without RLS allows any user with the anon key to read, insert, update, and delete all rows. This is the most common Supabase security mistake."
 tags: [security, supabase, rls, postgresql]
 detection_grep: "ENABLE ROW LEVEL SECURITY"
+sources: ["CWE-862", "OWASP-A01:2021", "https://supabase.com/docs/guides/database/postgres/row-level-security"]
 ---
 
 ## Enable RLS on every table

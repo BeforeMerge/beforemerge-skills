@@ -5,6 +5,7 @@ impact: HIGH
 impact_description: "console.log can leak secrets in stack traces, is impossible to filter in production, and lacks log levels for severity-based alerting."
 tags: [quality, logging, security, observability]
 detection_grep: "console\.log"
+sources: ["CWE-532", "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html", "https://12factor.net/logs", "https://getpino.io/"]
 ---
 
 ## Use structured logging — never console.log in production
